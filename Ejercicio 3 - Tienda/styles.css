@@ -1,0 +1,118 @@
+header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://tse2.mm.bing.net/th?id=OIP.dZxNrGCJfS-MJco5XWu-zwHaEK&pid=Api&P=0&h=180);
+}
+.buscar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 30px;
+}
+.lupa{
+  width: 25px;
+  height: 25px;
+}
+.casa{
+  width: 25px;
+  height: 25px;
+}
+.buscador{
+  display: flex;
+  flex: wrap;
+  align-items: center;
+}
+.div2{
+  display: flex;
+  flex: wrap;
+  justify-content:space-around;
+  height: 30px;
+  width: 300px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 950px;
+}
+.titular{
+  height: 80px;
+  width: 400px;
+  margin-left: 500px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.titulo{
+  font-size: 70px;
+  font-family:fantasy
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: url(https://mcdn.wallpapersafari.com/medium/37/82/RMy5sq.jpg);
+}
+.main {
+  height: 100%;
+  width: 100%;
+}
+.div1 {
+  height: 200px;
+  width: 200px;
+  float: left;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.div3 {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 200px;
+  height: 50px;
+}
+.contenedor {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+margin: 100px;
+}
+
+.box {
+  width: 230px;
+  height: 320px;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+figure {
+  height: 30px;
+  width: 130px;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.suscribete{
+  font-size: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+  width: 100%;
+  height: 100%;
+}
+.foot{
+
+}

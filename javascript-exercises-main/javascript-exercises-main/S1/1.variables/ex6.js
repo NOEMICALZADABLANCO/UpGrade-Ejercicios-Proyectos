@@ -1,0 +1,1 @@
+console.log(toy1.price + toy2.price);

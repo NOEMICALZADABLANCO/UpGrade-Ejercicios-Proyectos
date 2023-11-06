@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="js/pokedex.js" defer></script>
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles/pokeapi.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="pokeFondo" src="./imagenes/pokeapi.jpeg">
+        <input
+          class="buscar"
+          type="text"
+          placeholder="Ecuentra tu Pokemon"
+          id="search"
+          oninput="searchType(event)"
+        />
+      </div>
+    </header>
+    <div class="botonera">
+      <button class="btn" onclick="filterType('poison')">buscar Poison</button>
+      <button class="btn" onclick="filterType('ground')">buscar Ground</button>
+      <button class="btn" onclick="filterType('grass')">buscar Poison</button>
+      <button class="btn" onclick="filterType('fire')">buscar Ground</button>
+      <button class="btn" onclick="filterType('bug')">buscar Poison</button>
+      <button class="btn" onclick="filterType('water')">buscar Ground</button>
+      <button class="btn" onclick="filterType('flying')">buscar Poison</button>
+      <button class="btn" onclick="filterType('normal')">buscar Ground</button>
+      <button class="btn" onclick="filterType('electric')">buscar Poison</button>
+      <button class="btn" onclick="filterType('fairy')">buscar Ground</button>
+      <button class="btn" onclick="filterType('rock')">buscar Poison</button>
+      <button class="btn" onclick="filterType('steel')">buscar Ground</button>
+      <button class="btn" onclick="filterType('psychic')">buscar Poison</button>
+      <button class="btn" onclick="filterType('ghost')">buscar Ground</button>
+      <button class="btn" onclick="filterType('ice')">buscar Poison</button>
+      <button class="btn" onclick="filterType('dragon')">buscar Ground</button>
+    </div>
+
+    <hr class="linea">
+
+    <div class="container">
+      <div class="d_card">
+        <div class="cards"></div>
+      </div>
+    </div>
+  </body>
+</html>

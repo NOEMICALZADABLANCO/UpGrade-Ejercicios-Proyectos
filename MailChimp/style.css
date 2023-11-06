@@ -1,0 +1,108 @@
+.colocar {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+.mono {
+  padding: 50px;
+  width: 200px;
+  height: 100%;
+}
+.titulo{
+  width: 400px;
+}.body2{
+width: 400px;
+height: 100%;
+}
+.formulario {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+}
+.botonEmail {
+  width: 392px;
+  height: 40px;
+}
+.botonName {
+  width: 392px;
+  height: 40px;
+}
+.botonPassw{
+  width: 400px;
+  height: 40px;
+}
+.lista{
+display: flex;
+flex-wrap: wrap;
+height: 100px;
+width: 400px;
+
+}
+.imagenes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.alinear {
+  display: flex;
+  width: 210px;
+}
+.listas {
+display: flex;
+  width: 190px;
+}
+
+section {
+  width: 100vw;
+  height: 300px;
+}
+.cajaPasw{
+  display: flex;
+  width: 200px;
+  display: flex;
+  justify-content:space-between
+}
+.pasw {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 400px;
+}
+.cajaPasw{
+  width: 400px;
+}
+.eye {
+  width: 25px;
+  height: 25px;
+}
+.divPasw{
+  width: 400px;
+
+}
+.botonOjo {
+  color: cyan;
+}
+.boton {
+  width: 100px;
+  height: 35px;
+}
+.dont{
+  width: 250px;
+}
+.texto{
+  font-size: 13px;
+}
+.check {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 400px;
+}
+.listas{
+  display: flex;
+}
+footer{
+  height: 100px;
+  width: 400px;
+  padding-top: 20px;
+}

@@ -1,0 +1,94 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    background-color:darkmagenta;
+}
+.h__nav{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+ }
+            .h__nav-logo{
+                width: 100px;
+                height: 80px;
+
+                    #fotoLogo{
+                        width: 140px;
+                        height: 55px;
+                        padding: 5px;
+                    }
+            }
+            .h__nav-despleg{
+                width: 35px;
+                height: 60px;
+            }
+            .fotoLogo{
+                width: 20px;
+                height: 20px;
+                padding-top: 20px;
+
+            }
+            .h__div-titulos{
+                width: 100%;
+                height: 300px;
+                text-align: center;
+                
+            
+            }
+            .titulo1{
+                font-size: 42px;
+                font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                }
+                .tituloColor{
+                font-size: 42px;
+                font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+                color:darkgoldenrod;
+                }
+                .d__parrafo{
+                    font-size: 18px;
+                    margin: 10px;
+                    color: white;
+                }
+
+        .register{
+            padding: 19px 40px 20px;
+            background-color: rgb(255, 255, 255);
+            display: block;
+            margin:0 10px;
+            border-radius: 4px;
+            width: 290px;
+            font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+            letter-spacing: .8px;
+            font-size: .875rem;
+            text-align: center;
+        }
+        .registro{
+            background-color: dodgerblue;
+            width: 290 px;
+            height: 60px;
+            margin: 10px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+        .icon_google{
+            width: 50px;
+            height: 50px;
+            margin: 4px;
+        }
+        .regist{
+            color: aliceblue;
+            width: 280px;
+            margin-left: 40px;
+        }
+        .h_video{
+            width: 380px;
+            margin-left: 10px;   
+        }
+
+
